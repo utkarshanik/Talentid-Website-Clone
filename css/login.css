@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.card
+{
+    width: 100vw;
+    height: 100vh;  
+    display: flex;
+}
+
+.card1
+{
+    width: 50%;
+    height: 100%;
+    box-shadow: inset 0px -500px 410px -120px rgba(224, 209, 244, 1.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3%;
+    margin-top: 10%;
+}
+
+#forget 
+{
+    color: rgb(147 51 234);
+}
+.form
+{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1
+{
+    text-align: center;
+}
+
+.account
+{
+    color: rgb(147 51 234);
+}
+
+.account:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.submit
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit button
+{
+    width: 50%;
+}
+h1 {
+    color: rgb(96 60 154);
+}
+
+
+
+input {
+    display: block;
+    width: 100%;
+    /* height: 90%; */
+    /* margin-bottom: 15px; */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 1em;
+    margin: 5%;
+}
+
+button {
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(96 60 154);
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover
+{
+    background-color: rgb(80 43 127);
+    
+}
+
+.card2
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-image:url(/img/Login.png);
+    object-fit: contain;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    padding: 10%;
+    background-repeat: no-repeat;
+    
+}
